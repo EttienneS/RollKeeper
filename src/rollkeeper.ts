@@ -11,7 +11,7 @@
  */
 
 // Import TypeScript modules
-import EchoMessage from "./module/hooks/EchoMessage"
+import ChatMessageParser from "./module/hooks/ChatMessageParser"
 import { registerSettings } from './module/settings.js';
 import { preloadTemplates } from './module/preloadTemplates.js';
 
@@ -38,6 +38,9 @@ Hooks.once('init', async function() {
 Hooks.once('setup', function() {
 	// Do anything after initialization but before
 	// ready
+
+	
+
 });
 
 /* ------------------------------------ */
@@ -47,5 +50,5 @@ Hooks.once('ready', function() {
 	// Do anything once the module is ready
 });
 
-// Add any additional hooks if necessary
-Hooks.on('createChatMessage', EchoMessage.createEchoMessageHook.bind(EchoMessage));
+// hook chat message up to message creation event
+Hooks.on('createChatMessage', ChatMessageParser.parseMessage.bind(ChatMessageParser));

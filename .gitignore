@@ -1,6 +1,4 @@
 node_modules
+dist
+package
 foundryconfig.json
-dist/module
-dist/templates
-dist/**/*.js
-dist/**/*.json
