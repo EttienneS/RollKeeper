@@ -1,6 +1,6 @@
 {
-  "name": "rollkeeper",
-  "title": "rollkeeper",
+  "name": "RollKeeper",
+  "title": "RollKeeper",
   "description": "Keep track of your rolls!  Who is really the unlucky one?",
   "version": "0.1.0",
   "author": "EttienneS",
@@ -15,9 +15,9 @@
   "styles": ["rollkeeper.css"],
   "minimumCoreVersion": "0.6.4",
   "compatibleCoreVersion": "0.7.0",
-  "url": "https://github.com/EttienneS/rollkeeper",
-  "manifest": "https://raw.githubusercontent.com/EttienneS/rollkeeper",
+  "url": "https://github.com/EttienneS/RollKeeper",
+  "manifest": "https://raw.githubusercontent.com/EttienneS/RollKeeper/main/dist/module.json",
   "download": "",
-  "readme": "https://raw.githubusercontent.com/EttienneS/rollkeeper/",
-  "changelog": "https://raw.githubusercontent.com/EttienneS/rollkeeper/"
+  "readme": "https://raw.githubusercontent.com/EttienneS/RollKeeper/main/README.md",
+  "changelog": "https://raw.githubusercontent.com/EttienneS/RollKeeper/main/CHANGELOG.md"
 }
